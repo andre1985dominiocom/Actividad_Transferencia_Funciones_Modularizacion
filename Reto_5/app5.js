@@ -10,7 +10,7 @@ let cantidad = parseFloat(cs("Ingrese la cantidad a calcular: "))
 let iva = parseInt(cs("Ingrese el porcentaje de IVA: (solo numero) "))
 
 
-let resultadoIVA = calcularIva(iva)
+let resultadoIVA = calcularIVA(iva)
 let total = calcularTotal(cantidad, iva)
 
 if (verificarCantidad(cantidad) && verificarIVA(iva)){
