@@ -18,7 +18,7 @@ if (verificarCantidad(cantidad) && verificarIVA(iva)){
     console.log("el total a pagar es: "+total);
 } else {
     console.log("Error");
-    console.log("ingrese valores validos");
+    console.log("ingrese valores validos ");
     
 }
 
