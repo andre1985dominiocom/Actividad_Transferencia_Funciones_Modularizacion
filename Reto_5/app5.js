@@ -19,6 +19,5 @@ if (verificarCantidad(cantidad) && verificarIVA(iva)){
 } else {
     console.log("Error");
     console.log("ingrese valores validos ");
-    
 }
 
